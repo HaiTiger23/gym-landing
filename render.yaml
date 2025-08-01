@@ -1,7 +1,7 @@
 services:
-  - type: web
+  - type: static
     name: benthuonghai-web
-    env: php  # hoặc node, docker...
+    env: static
     plan: free
-    buildCommand: ""          # Không cần build vì chỉ có file HTML
-    staticPublishPath: .      # Thư mục chứa index.html (ở root)
+    buildCommand: ""          # Không cần build
+    staticPublishPath: .      # Thư mục chứa index.html
