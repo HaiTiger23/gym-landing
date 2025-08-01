@@ -506,10 +506,11 @@ header.site-header {
 
 /* Header navigation */
 .site-nav {
-  margin: 0;
   padding: 0;
-  display: block;
-  float: right;
+  width: fit;
+  margin: 0 auto;
+  display: flex;
+  justify-items: center;
 }
 
 .site-nav .site-nav-btn a {
@@ -3530,7 +3531,7 @@ Site Offer (section)
 -----------------------------------------------------------------------------------*/
 /* Subscribe Container */
 .site-subscribe {
-	background:url(../images/subscribe-bg.jpg) no-repeat center center;
+	background:url(../images/service-bg.jpg) no-repeat center center;
 	background-attachment:fixed;
 	background-size:cover;
 	float:left;
