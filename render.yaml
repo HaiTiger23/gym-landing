@@ -2,6 +2,5 @@ services:
   - type: web
     name: benthuonghai-web
     env: static
-    plan: standard 
     buildCommand: ""          # Không cần build
     staticPublishPath: .      # Thư mục chứa index.html
