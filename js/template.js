@@ -463,8 +463,9 @@ jQuery(document).ready(function ($) {
                 // Submit form using fetch
                 fetch("https://script.google.com/macros/s/AKfycbyRH7iUAGIH8siW8PyPX7GEAtFHRE19MzX47bjEEmpoRO0yelvAqH2u7XzjpbMamnKX_Q/exec", {
                     method: "POST",
+                    redirect: "follow",
                     headers: {
-                        'Content-Type': 'application/json'
+                         "Content-Type": "text/plain;charset=utf-8",
                     },
                     body: JSON.stringify(formData)
                 })
